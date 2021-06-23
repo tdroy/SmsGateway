@@ -11,15 +11,14 @@ App Icon
 At the time of installation unsafe warning will appear as this app is for demo and using selfsigned cert. 
 Download the SmsGateway.apk file and install,post installation, goto Settings --> Apps --> TroySms --> Permissions --> SMS permission (allow).
 
-![alt text] (TroySms-Server.jpg)
+![Alt text](TroySms-Server.jpg)
 
 Run the application, it will display server listen address and port of wifi connections.
 Open a browser on any laptop/machine connected to same wifi netowrk and hit the url http://IP:port/?cell_number=9923xxxxx&message=Hello1
 After successfull browser request app will send out sms to recipent and it will be logged to app screen.
 
-![alt test] ()
+![Alt text](Browser.png )
 
-
-
+Currently only outgoing sms service is implemented, for incoming sms operation please write to me.
 
 
