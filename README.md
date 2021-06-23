@@ -15,6 +15,7 @@ Download the SmsGateway.apk file and install,post installation, goto Settings --
 
 Run the application, it will display server listen address and port of wifi connections.
 Open a browser on any laptop/machine connected to same wifi netowrk and hit the url http://IP:port/?cell_number=9923xxxxx&message=Hello1
+After successfull browser request app will send out sms to recipent and it will be logged to app screen.
 
 ![alt test] ()
 
